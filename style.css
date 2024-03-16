@@ -46,5 +46,17 @@ header {
 }
 
 .foto {
-  flex-basis: 25%;
+  flex-basis: 50%;
+}
+
+@media (min-width: 600px) {
+  .foto {
+    flex-basis: calc(100% / 3);
+  }
+}
+
+@media (min-width: 1000px) {
+  .foto {
+    flex-basis: 25%;
+  }
 }
