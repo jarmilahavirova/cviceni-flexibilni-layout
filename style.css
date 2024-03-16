@@ -46,5 +46,5 @@ header {
 }
 
 .foto {
-  width: 25%;
+  flex-basis: 25%;
 }
